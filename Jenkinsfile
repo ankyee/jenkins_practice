@@ -17,7 +17,7 @@ date'''
           }
         }
 
-        stage('') {
+        stage('concurrunt') {
           steps {
             sh '''ls 
 pwd'''

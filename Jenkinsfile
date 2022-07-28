@@ -34,6 +34,7 @@ pwd'''
     }
 
     stage('stage-4') {
+      agent any
       steps {
         sh '''pwd
 '''
